@@ -7,8 +7,13 @@ body { background-image: radial-gradient( cover, rgba(92,100,111,1) 0%,rgba(31,3
   border: 1px solid #CCDEE2;
   border-radius: 10px;
   height: 252px;
-  margin: 20px auto 0;
-  width: 20%;
+  margin: auto;
+  width: 400px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .login h1 {
   background-image: linear-gradient(top, #f1f3f3, #d4dae0);
